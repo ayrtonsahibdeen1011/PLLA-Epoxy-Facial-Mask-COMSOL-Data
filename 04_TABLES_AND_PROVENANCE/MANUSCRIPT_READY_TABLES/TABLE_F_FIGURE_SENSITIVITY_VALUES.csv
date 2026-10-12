@@ -1,0 +1,11 @@
+﻿plot_panel,test_type,metric,displayed_value,unit,source_case,interpretation
+S04a,Time-step,max mean temperature difference,0.00024376677100690358,K,O_0p2_h8_TOLERANCE.csv,Open-corner; deterministic solver/mesh/repair comparison
+S04a,Mesh,max mean temperature difference,0.003506305358030204,K,O_fine_h8_TIGHT.csv,Open-corner; deterministic solver/mesh/repair comparison
+S04a,Repair,max mean temperature difference,0.02102601051296915,K,O_alt_h8_TIGHT.csv,Open-corner; deterministic solver/mesh/repair comparison
+S04b,Reference mesh,ABS(mean stress %),0.07140540356831426,%,COORD_A_fine,Absolute numerical deviation; signed source in CORRECTED_QA
+S04b,Open-corner mesh,ABS(mean stress %),0.21612259116259303,%,COORD_0p2_fine,Absolute numerical deviation; signed source in CORRECTED_QA
+S04b,Open-corner repair,ABS(mean stress %),0.21838512776474195,%,COORD_repair,Absolute numerical deviation; signed source in CORRECTED_QA
+S04c,Reference,ABS(max displacement %),26.19420431446625,%,COORD_A_wide,Absolute numerical deviation; not experimental sample variability
+S04c,Open-corner,ABS(max displacement %),16.74391868737075,%,COORD_0p2_wide,Absolute numerical deviation; not experimental sample variability
+S04d,Reference,ABS(max displacement %),2.7289254533409246,%,COORD_A_stiff,Absolute numerical deviation; not experimental sample variability
+S04d,Open-corner,ABS(max displacement %),3.232132225809714,%,COORD_0p2_stiff,Absolute numerical deviation; not experimental sample variability

@@ -1,0 +1,7 @@
+﻿figure,source_original,public_shell_label,native_model,dataset,expression,unit,shared_color_min,shared_color_max,validity
+FIELD_REFERENCE_DISPLACEMENT.png,FINAL_FIELD_A_STATIC_0.png,Reference shell,A_STATIC_FINAL.mph,dset1,solid.disp,mm,0,0.02,Visualized solved COMSOL field with shared scale. Clipping is possible; NOT verified local stress peak.
+FIELD_REFERENCE_VON_MISES.png,FINAL_FIELD_A_STATIC_1.png,Reference shell,A_STATIC_FINAL.mph,dset1,solid.mises,MPa,0,0.2,Visualized solved COMSOL field with shared scale. Clipping is possible; NOT verified local stress peak.
+FIELD_REFERENCE_TEMPERATURE_300S.png,FINAL_FIELD_A_COOLING_0.png,Reference shell,A_COOLING_FINAL.mph,dset3,T,K,293.15,318.15,Visualized solved COMSOL field with shared scale. Clipping is possible; NOT verified local stress peak.
+FIELD_OPEN_CORNER_DISPLACEMENT.png,FINAL_FIELD_O_STATIC_0.png,Open-corner shell,O_STATIC_FINAL.mph,dset1,solid.disp,mm,0,0.02,Visualized solved COMSOL field with shared scale. Clipping is possible; NOT verified local stress peak.
+FIELD_OPEN_CORNER_VON_MISES.png,FINAL_FIELD_O_STATIC_1.png,Open-corner shell,O_STATIC_FINAL.mph,dset1,solid.mises,MPa,0,0.2,Visualized solved COMSOL field with shared scale. Clipping is possible; NOT verified local stress peak.
+FIELD_OPEN_CORNER_TEMPERATURE_300S.png,FINAL_FIELD_O_COOLING_0.png,Open-corner shell,O_COOLING_FINAL.mph,dset1,T,K,293.15,318.15,Visualized solved COMSOL field with shared scale. Clipping is possible; NOT verified local stress peak.

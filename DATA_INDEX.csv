@@ -1,0 +1,10 @@
+﻿study_family,primary_file,purpose
+Historical contact,D03_CONTACT_STABLE.csv,"Accepted 12 sphere-contact states, 1.5-4 mm"
+Historical contact,TABLE_E_HISTORICAL_SPHERE_CONTACT_12_SOLUTIONS.csv,Manuscript-ready contact values
+Historical contact,TABLE_I_ORIGINAL_C_F_I_VERIFIED_PLOT_DATA.csv,Exact values used for corrected c/f/i
+Reference/Open-corner,TABLE_A_COMPLETE_MODEL_PARAMETERS.csv,"Inputs, assumptions, sources and missing physical inputs"
+Reference/Open-corner,TABLE_B_MECHANICAL_ALL_ACCEPTED_CASES.csv,Mechanical baseline and verification cases
+Reference/Open-corner,TABLE_C_COOLING_FULL_181POINT_CURVES.csv,Full dense cooling curves
+Reference/Open-corner,TABLE_D_COOLING_MANUSCRIPT_CHECKPOINTS.csv,Thermal checkpoints and strict verification
+Validation,TABLE_F_FIGURE_SENSITIVITY_VALUES.csv,Exact displayed sensitivity values
+Figures,TABLE_H_COMPLETE_FIGURE_SOURCE_INDEX.csv,Figure-to-data source map

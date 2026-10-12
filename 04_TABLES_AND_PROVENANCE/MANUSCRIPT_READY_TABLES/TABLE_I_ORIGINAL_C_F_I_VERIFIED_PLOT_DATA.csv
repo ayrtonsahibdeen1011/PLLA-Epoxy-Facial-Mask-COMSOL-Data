@@ -1,0 +1,19 @@
+﻿panel,loading_location,displacement_mm,regional_mean_stress_MPa,regional_mean_energy_density_kJ_m3,source,interpretation
+f,Center,1.5,1.80692367077,0.759449015387,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Center,2.0,2.41371475472,1.35511213055,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Center,2.5,3.01955651541,2.11813177099,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Center,3.0,3.62504328176,3.0485278954,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Center,3.5,4.2263292818,4.14063251374,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Center,4.0,4.82327286208,5.39060506932,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Orbital,1.5,1.18737448192,0.333361476296,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Orbital,2.0,1.59890342128,0.604263899941,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Orbital,2.5,2.00691222497,0.951673269195,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Orbital,3.0,2.41027984789,1.37405312364,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Orbital,3.5,2.81013695733,1.87149697179,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+f,Orbital,4.0,3.20765880096,2.44237589266,D03_CONTACT_STABLE.csv,Solved regional mask-domain mean (not global peak)
+c,Center,3.0,3.62504328176,3.0485278954,D03_CONTACT_STABLE.csv,Selected 3 and 4 mm solved values; NOT the old 30/40 mm workbook
+c,Orbital,3.0,2.41027984789,1.37405312364,D03_CONTACT_STABLE.csv,Selected 3 and 4 mm solved values; NOT the old 30/40 mm workbook
+c,Center,4.0,4.82327286208,5.39060506932,D03_CONTACT_STABLE.csv,Selected 3 and 4 mm solved values; NOT the old 30/40 mm workbook
+c,Orbital,4.0,3.20765880096,2.44237589266,D03_CONTACT_STABLE.csv,Selected 3 and 4 mm solved values; NOT the old 30/40 mm workbook
+i,Center,4.0,1.0,1.0,D03_CONTACT_STABLE.csv,"Normalized ratio, center=1, dimensionless"
+i,Orbital,4.0,0.6650378057974355,0.4530801016309834,D03_CONTACT_STABLE.csv,"Normalized ratio, center=1, dimensionless"

@@ -1,0 +1,5 @@
+﻿"geometry","h_W_m2K","time_s","mean_T_K","source"
+"A","8","300","300.63139863957895","A_COOLING_VERIFIED_BASE.csv"
+"O","8","300","306.215044717187","O_0p2_h8_TIGHT.csv"
+"O","4","300","311.0899751391489","O_0p2_h4_TIGHT.csv"
+"O","16","300","300.36178803113455","O_0p2_h16_TIGHT.csv"

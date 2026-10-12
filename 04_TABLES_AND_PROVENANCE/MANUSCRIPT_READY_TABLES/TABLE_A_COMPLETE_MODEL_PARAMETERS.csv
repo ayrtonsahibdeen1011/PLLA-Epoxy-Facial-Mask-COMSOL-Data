@@ -1,0 +1,56 @@
+﻿model_family,parameter,value,unit,evidence_status,source_file,interpretation_and_caveat
+Geometry,Model A designation,Reference shell (existing curved configuration),—,Model identity,S01_GEOMETRY.png; A_ALIGNED_WIDTH150_M.stl,NOT necessarily a thickness/coverage-matched closed-corner counterpart
+Geometry,Model O designation,Open-corner shell (repaired source STL),—,Model identity,S01_GEOMETRY.png; OPEN_MASK_SOURCE_UNMODIFIED.stl,"Distinct complete geometry, not only a cutout in the reference mask"
+Geometry,Reference nominal width,150,mm,Assumed normalization,PARAMETERS_EN_CN.csv,Both models normalized to nominal 150 mm; not an experimentally measured specimen width
+Geometry,Open-corner nominal width,150,mm,Assumed normalization,PARAMETERS_EN_CN.csv,Does not imply matched volume or material thickness
+Geometry,Reference integrated material volume,43.270603446540036,cm3,Numerical domain integration,CORRECTED_QA.json,Calculated on actual finite-element volume
+Geometry,Open-corner integrated material volume,86.91960028939275,cm3,Numerical domain integration,CORRECTED_QA.json,Calculated on actual finite-element volume
+Geometry,Reference calculated mass,60.57884482515605,g,Derived from assumed density,CORRECTED_QA.json; PARAMETERS_EN_CN.csv,Not actual weighed mass
+Geometry,Open-corner calculated mass,121.68744040514986,g,Derived from assumed density,CORRECTED_QA.json; PARAMETERS_EN_CN.csv,Not actual weighed mass
+Shared A/O homogeneous effective solid,Effective Young modulus,3.5,GPa,Assumed NOT coupon-calibrated,PARAMETERS_EN_CN.csv; METHODS_AND_INTERPRETATION_EN_CN.md; A_STATIC_FINAL.mph/O_STATIC_FINAL.mph; A_COOLING_FINAL.mph/O_COOLING_FINAL.mph,"No explicit PLLA fibres, epoxy ply/interface, fracture, anisotropy or viscoelastic dissipation"
+Shared A/O homogeneous effective solid,Poisson ratio,0.38,1,Assumed NOT coupon-calibrated,PARAMETERS_EN_CN.csv; METHODS_AND_INTERPRETATION_EN_CN.md; A_STATIC_FINAL.mph/O_STATIC_FINAL.mph; A_COOLING_FINAL.mph/O_COOLING_FINAL.mph,"No explicit PLLA fibres, epoxy ply/interface, fracture, anisotropy or viscoelastic dissipation"
+Shared A/O homogeneous effective solid,Density,1400,kg/m3,Assumed NOT coupon-calibrated,PARAMETERS_EN_CN.csv; METHODS_AND_INTERPRETATION_EN_CN.md; A_STATIC_FINAL.mph/O_STATIC_FINAL.mph; A_COOLING_FINAL.mph/O_COOLING_FINAL.mph,"No explicit PLLA fibres, epoxy ply/interface, fracture, anisotropy or viscoelastic dissipation"
+Shared A/O homogeneous effective solid,Thermal conductivity,0.25,W/(m K),Assumed NOT coupon-calibrated,PARAMETERS_EN_CN.csv; METHODS_AND_INTERPRETATION_EN_CN.md; A_STATIC_FINAL.mph/O_STATIC_FINAL.mph; A_COOLING_FINAL.mph/O_COOLING_FINAL.mph,"No explicit PLLA fibres, epoxy ply/interface, fracture, anisotropy or viscoelastic dissipation"
+Shared A/O homogeneous effective solid,Specific heat capacity,1000,J/(kg K),Assumed NOT coupon-calibrated,PARAMETERS_EN_CN.csv; METHODS_AND_INTERPRETATION_EN_CN.md; A_STATIC_FINAL.mph/O_STATIC_FINAL.mph; A_COOLING_FINAL.mph/O_COOLING_FINAL.mph,"No explicit PLLA fibres, epoxy ply/interface, fracture, anisotropy or viscoelastic dissipation"
+Shared A/O solid mechanics,Model equations,Linear elastic 3D solids,—,Native solid mechanics settings,METHODS_AND_INTERPRETATION_EN_CN.md; .mph,"Small-strain idealized comparison, not impact test or damage simulation"
+Shared A/O solid mechanics,Applied resultant force,2.70025832,N,Prescribed equal-force scenario,T02_CORRECTED_MECHANICAL.csv; CORRECTED_QA.json,Same normalized Gaussian resultant on both configurations
+Shared A/O solid mechanics,Gaussian spatial radius,18,mm,Assumed loading distribution,PARAMETERS_EN_CN.csv,Not a measured ball-contact pressure field
+Shared A/O solid mechanics,Restoring support traction,"-K × gfix × (u,v,w)",N/m2,Specified mathematical idealization,METHODS_AND_INTERPRETATION_EN_CN.md,Not an exact clamped fixture or instrument-calibrated mounting condition
+Shared A/O solid mechanics,Support weighting gfix,0.5[1+tanh((abs(x)-xs)/0.25 mm)],1,Specified analytical profile,METHODS_AND_INTERPRETATION_EN_CN.md,Physical boundary selection based on global x-coordinate
+Shared A/O solid mechanics,Baseline support coordinate threshold,65,mm,Assumed,PARAMETERS_EN_CN.csv,Support sensitivity changed threshold to 60 mm
+Shared A/O solid mechanics,Support-region test threshold,60,mm,Sensitivity only,PARAMETERS_EN_CN.csv,Changes the effective area and response
+Shared A/O solid mechanics,Support transition width,0.25,mm,Assumed tanh transition width,PARAMETERS_EN_CN.csv,Smooth transition
+Shared A/O solid mechanics,Baseline support stiffness,1000000000000.0,N/m3,Assumed near-clamp penalty,PARAMETERS_EN_CN.csv,Stiffness sensitivity uses 1e13 N/m3
+Shared A/O solid mechanics,Support stiffness check,10000000000000.0,N/m3,Sensitivity only,PARAMETERS_EN_CN.csv,Not a calibrated clamp
+Shared A/O cooling,Study,"Time-dependent conduction, external convection",—,Model configuration,METHODS_AND_INTERPRETATION_EN_CN.md,"No fluid flow, human skin or face-contact model"
+Shared A/O cooling,Governing equation,ρ Cp ∂T/∂t = ∇·(k ∇T),—,Documented PDE,METHODS_AND_INTERPRETATION_EN_CN.md,Homogeneous solid conduction
+Shared A/O cooling,Initial uniform temperature,318.15,K,Prescribed,PARAMETERS_EN_CN.csv,Equivalent to 45°C
+Shared A/O cooling,Ambient temperature,293.15,K,Prescribed,PARAMETERS_EN_CN.csv,Equivalent to 20°C
+Shared A/O cooling,Baseline convection coefficient,8,W/(m2 K),Prescribed,PARAMETERS_EN_CN.csv,Uniform on all exposed boundaries
+Shared A/O cooling,Boundary sensitivity coefficients,4;16,W/(m2 K),Prescribed variants,PARAMETERS_EN_CN.csv,No measured ventilation rate or experimental calibration
+Shared A/O cooling,Radiation / heat generation,Not applied,—,Model omission,METHODS_AND_INTERPRETATION_EN_CN.md,No radiation or generated heat sources
+Shared A/O cooling,Simulation time interval,0 to 900,s,Time-dependent solution,A_COOLING_h8.csv; O_0p2_h8_TIGHT.csv,"Dense CSV at 5-s intervals, 181 time points"
+Shared A/O cooling,Open-corner time solver,"BDF, maximum order 5, adaptive time stepping",—,Native solver setting,PARAMETERS_EN_CN.csv,Reference histories and tolerance checkpoints separately recorded
+Shared A/O cooling,Reference dense-solver tolerance,1e-05,relative,Numerical solver setting,PARAMETERS_EN_CN.csv,Reference tight verification 1e-6; dense 300-s value differs from tight result by ~0.0052 K
+Shared A/O cooling,Reference strict verification tolerance,1e-06,relative,Verification only,PARAMETERS_EN_CN.csv; A_COOLING_VERIFIED_BASE.csv,Not to be mixed into figure data from dense 1e-5 curve
+Shared A/O cooling,Open-corner dense-solver tolerance,1e-06,relative,Numerical solver setting,PARAMETERS_EN_CN.csv,An independent check was performed at 1e-5
+Shared A/O cooling,Native spatial-field output times,"0, 60, 300, 900",s,Native compact output,COMSOL_REPRODUCTION_EN_CN.md,Dense 181-point mean curves retained separately
+A/O mesh verification,Reference baseline tetrahedral elements,225527,count,Numerically verified mesh,CORRECTED_QA.json,Bulk metrics mesh checked against finer mesh
+A/O mesh verification,Open-corner baseline tetrahedral elements,108375,count,Numerically verified mesh,CORRECTED_QA.json,Bulk metrics mesh checked against finer mesh
+A/O mesh verification,Open-corner minimum mean-ratio quality,~0.000239,1,Reported mesh quality audit,RELEASE_AND_EXCLUSIONS_EN_CN.md,11 low-quality elements <0.001; ~2.09e-7 of volume; not proof of local stress-peak convergence
+A/O outputs,Reported stress,Volume mean von Mises stress,MPa,Computed FE solution,T02_CORRECTED_MECHANICAL.csv,Not maximum local stress or failure stress
+A/O outputs,Reported displacement,Maximum displacement magnitude,mm,Computed FE solution,T02_CORRECTED_MECHANICAL.csv,Support-region sensitivity remains important
+A/O outputs,Reported energy,Stored elastic strain energy in solid,mJ,Computed FE solution,T02_CORRECTED_MECHANICAL.csv,NOT dissipated impact energy
+Historical contact model,Native geometry family,H (distinct original-scale mask),—,Model identity,Center_MESH3_SOLVED.mph; Orbital_MESH3_SOLVED.mph,"Independent historical model, not same as normalized A/O"
+Historical contact model,Rigid sphere size as reported,210,mm,Historical model documentation,METHODS_AND_INTERPRETATION_EN_CN.md,The historical methods call this a 210 mm sphere; do not assert radius/diameter without inspecting native geometry
+Historical contact model,Contact locations,Central; upper orbital,—,Prescribed model cases,D03_CONTACT_STABLE.csv,Equal imposed motion; unequal force
+Historical contact model,Prescribed sphere movement,"1.5,2.0,2.5,3.0,3.5,4.0",mm,Released solved subset,D03_CONTACT_STABLE.csv,Original onset interval outside verified release
+Historical contact model,Regional sampling radius,150,mm,Numerically defined ROI,METHODS_AND_INTERPRETATION_EN_CN.md,ROI intersection volume differs between central and orbital
+Historical contact model,Reaction / contact force,Per solved step in D03,N,Computed FE contact,D03_CONTACT_STABLE.csv,Not sensor-calibrated force
+Historical contact model,Regional stress,ROI mean,MPa,Computed FE solution,D03_CONTACT_STABLE.csv,Not full mask peak or tissue injury limit
+Historical contact model,Elastic energy,Stored (whole mask) and region-mean density,J; kJ/m3,Computed FE solution,D03_CONTACT_STABLE.csv,Energy storage not dissipation
+Unverified experimental inputs: NOT in model,Measured layer count and individual ply thickness,Unavailable in verified records,count/mm,Do not assume,"Absent, do not invent",Thesis audit: THESIS_TENSILE_CLOSEOUT_EN_CN.md
+Unverified experimental inputs: NOT in model,PLLA:epoxy constituent volume fractions,Unavailable in verified records,volume fraction,Do not assign mixture rule without evidence,"Absent, do not invent",Thesis audit: THESIS_TENSILE_CLOSEOUT_EN_CN.md
+Unverified experimental inputs: NOT in model,Anisotropic stiffness / fibre-matrix interface,Not measured / not assigned,—,Cannot claim experimentally calibrated fibre reinforcement,"Absent, do not invent",Thesis audit: THESIS_TENSILE_CLOSEOUT_EN_CN.md
+Unverified experimental inputs: NOT in model,Specimen-specific thickness/width of tensile coupons,Not verified in archived individual records,mm,Not used to calibrate current FE material,"Absent, do not invent",Thesis audit: THESIS_TENSILE_CLOSEOUT_EN_CN.md
+Unverified experimental inputs: NOT in model,Controlled geometry matched-only-corner comparison,Not carried out,—,A and O differ in multiple dimensions,"Absent, do not invent",Thesis audit: THESIS_TENSILE_CLOSEOUT_EN_CN.md

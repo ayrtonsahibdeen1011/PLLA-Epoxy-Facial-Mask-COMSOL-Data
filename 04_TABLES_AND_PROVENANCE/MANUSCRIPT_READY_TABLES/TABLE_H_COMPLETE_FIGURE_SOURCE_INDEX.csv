@@ -1,0 +1,7 @@
+﻿figure,kind,combined_figure,data_source,numerical_case,interpretation_limit
+M01,"Historical contact, combined + M01_a-d",01_RECOMMENDED_FIGURES/M01_HISTORICAL_CONTACT.pdf,TABLE_E; D03_CONTACT_STABLE.csv,Central vs orbital at equal imposed sphere movement,Distinct historical model scale; no collision energy absorbed
+S01,Geometry representation,02_SUPPLEMENTAL_FIGURES/S01_GEOMETRY.png,A_ALIGNED_WIDTH150_M.stl; OPEN_MASK_SOURCE_UNMODIFIED.stl,Reference shell vs corrected open-corner shell,Not a matched-only-corners geometry pair
+S02,"Cooling, combined + S02_a-d",02_SUPPLEMENTAL_FIGURES/S02_COOLING.pdf,TABLE_C; TABLE_D,"h 8, 4, 16; 300s checkpoint shown from same dense curves","Strict A checkpoint tabulated separately, 0.0052K discrepancy disclosed"
+S03,"Mechanical, combined + S03_a-d",02_SUPPLEMENTAL_FIGURES/S03_MECHANICAL.pdf,TABLE_B; T02_CORRECTED_MECHANICAL.csv,"Equal 2.70025832N, 2 geometries; stored elastic energy","Support selection/geometry confounded, no injury claims"
+S04,"Numerical sensitivity, combined + S04_a-d",02_SUPPLEMENTAL_FIGURES/S04_SENSITIVITY.pdf,TABLE_F; CORRECTED_QA.json; T03_VALIDATION_EN_CN.csv,Absolute deviations only,Do not treat deterministic sensitivity as statistical uncertainty
+CFI,Original thesis c/f/i corrections,01_RECOMMENDED_FIGURES/ORIGINAL_C_F_I_VERIFIED/C_F_I_VERIFIED_COMBINED.pdf,TABLE_I; D03_CONTACT_STABLE.csv,Regional mean values at 3/4mm and 1.5-4mm,NOT the unverified 30/40mm global peak results

@@ -1,0 +1,11 @@
+﻿figure_id,role,caption_and_limits,data
+M01_HISTORICAL_CONTACT,Optional main numerical figure,Historical original-scale center/orbital contact at equal prescribed sphere movement. Elastic energy not absorbed impact energy,D03_CONTACT_STABLE.csv
+S01_GEOMETRY,Supplement,"Reference vs open-corner shell (A/O internally); unequal coverage, material volume and support",native STL
+S02_COOLING,Supplement,"Reference vs open-corner cooling, same dense curves for 300s bar; tighter verification separate",Thermal CSV
+S03_MECHANICAL,Supplement,"Reference vs open-corner mechanics, normalized force 2.70025832 N; no effect-of-corners-only claim",COORD CSV
+S04_SENSITIVITY,Supplement with S02/S03,Absolute deterministic mesh and support sensitivity; not statistical confidence,ACCEPTED_QA.json
+CFI_COMBINED,Supplement or original panel substitution,"Original (c),(f),(i) combined solved regional-mean replacement. No historical 30/40 mm global-peak claims.",D03_CONTACT_STABLE.csv / TABLE_I
+CFI_C,Supplement or original panel substitution,(c) Verified 3/4 mm bar comparison of center/orbital regional mean stress.,D03_CONTACT_STABLE.csv / TABLE_I
+CFI_F,Supplement or original panel substitution,(f) Verified six 1.5-4 mm regional mean stress points per location.,D03_CONTACT_STABLE.csv / TABLE_I
+CFI_I,Supplement or original panel substitution,(i) 4mm orbital/center regional mean stress and elastic energy-density ratios.,D03_CONTACT_STABLE.csv / TABLE_I
+NATIVE_CONTACT_CONTOURS_4MM,Optional COMSOL contact field supplement,"Six existing 4mm native fields, matching center/orbital color scales; uncalibrated local peaks may be mesh-sensitive; see source CSV and folder README",Center_MESH3_SOLVED.mph; Orbital_MESH3_SOLVED.mph; dset1 solnum9; native archive exporter

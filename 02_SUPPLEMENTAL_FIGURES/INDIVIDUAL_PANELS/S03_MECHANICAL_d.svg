@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="375.303492pt" height="250.230528pt" viewBox="0 0 375.303492 250.230528" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-06T06:27:06.174241</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 250.230528 
+L 375.303492 250.230528 
+L 375.303492 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 48.819492 215.985606 
+L 366.663492 215.985606 
+L 366.663492 29.390406 
+L 48.819492 29.390406 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(102.394029 227.725079)">Reference</text>
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(114.590436 238.52754)">shell</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(262.314189 227.724376)">Open-corner</text>
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(279.961924 238.526837)">shell</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <defs>
+       <path id="m4a2e53d59c" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4a2e53d59c" x="48.819492" y="215.985606" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="41.319492" y="219.404552" transform="rotate(-0 41.319492 219.404552)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4a2e53d59c" x="48.819492" y="178.666566" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="41.319492" y="182.085512" transform="rotate(-0 41.319492 182.085512)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m4a2e53d59c" x="48.819492" y="141.347526" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="41.319492" y="144.766472" transform="rotate(-0 41.319492 144.766472)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4a2e53d59c" x="48.819492" y="104.028486" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="41.319492" y="107.447432" transform="rotate(-0 41.319492 107.447432)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m4a2e53d59c" x="48.819492" y="66.709446" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="41.319492" y="70.128392" transform="rotate(-0 41.319492 70.128392)">80</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m4a2e53d59c" x="48.819492" y="29.390406" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="41.319492" y="32.809352" transform="rotate(-0 41.319492 32.809352)">100</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="15.858516" y="122.688006" transform="rotate(-90 15.858516 122.688006)">Volume (cm³)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 48.819492 215.985606 
+L 48.819492 29.390406 
+" style="fill: none; stroke: #242424; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 48.819492 215.985606 
+L 366.663492 215.985606 
+" style="fill: none; stroke: #242424; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 79.578589 215.985606 
+L 170.532907 215.985606 
+L 170.532907 135.244737 
+L 79.578589 135.244737 
+z
+" clip-path="url(#p6052e556bf)" style="fill: #205579"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 244.950077 215.985606 
+L 335.904395 215.985606 
+L 335.904395 53.797804 
+L 244.950077 53.797804 
+z
+" clip-path="url(#p6052e556bf)" style="fill: #bc533e"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="125.055748" y="129.202745" transform="rotate(-0 125.055748 129.202745)">43.27</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="290.427236" y="47.755812" transform="rotate(-0 290.427236 47.755812)">86.92</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; text-anchor: start" x="48.819492" y="16.390406" transform="rotate(-0 48.819492 16.390406)">(d)  Integrated material volume</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6052e556bf">
+   <rect x="48.819492" y="29.390406" width="317.844" height="186.5952"/>
+  </clipPath>
+ </defs>
+</svg>

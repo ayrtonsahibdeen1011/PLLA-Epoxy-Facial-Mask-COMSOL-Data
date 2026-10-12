@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "native_fields": 16,
+  "source_original_hash_verified": true,
+  "html_local_links_verified": true,
+  "rtf_status": "Word-readable; Word rendering unavailable",
+  "figure_review": "S01-S04 and M01 reviewed; native baseline displacement/stress/temperature views reviewed; fixed shared ranges, optional qualitative fields only",
+  "verification": "T03_VALIDATION_EN_CN.csv and ACCEPTED_QA.json",
+  "solver_helpers": "RecomputeReleased.java compiled; source scripts and solve logs retained"
+}

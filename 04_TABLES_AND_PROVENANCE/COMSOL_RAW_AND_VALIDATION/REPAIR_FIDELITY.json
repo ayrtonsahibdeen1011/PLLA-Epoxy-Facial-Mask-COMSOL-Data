@@ -1,0 +1,51 @@
+{
+  "source_sha256": "0d4957922a2e4994a2a43a94f67f250300ed8c707b966e3a798f4e82a57f8cfc",
+  "transform": "x=(source_y-mid_y)*scale; y=(source_z-mid_z)*scale; z=(source_x-mid_x)*scale; width 150 mm",
+  "scale_raw_to_mm": 1006.9358463025678,
+  "repairs": [
+    {
+      "voxel_mm": 0.3,
+      "triangles": 36000,
+      "volume_mm3": 86599.78624629206,
+      "source_algebraic_volume_mm3": 86659.59440338613,
+      "volume_change_percent": -0.0690150438688586,
+      "nonmanifold_edges": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "spans_mm": [
+        149.93267822265625,
+        103.1474380493164,
+        97.26946640014648
+      ],
+      "symmetric_sample_max_distance_mm": 0.1947733759880066,
+      "symmetric_sample_p95_distance_mm": 0.05882064998149872,
+      "symmetric_sample_p99_distance_mm": 0.08229009062051773,
+      "source_to_repair_max_mm": 0.1947733759880066,
+      "repair_to_source_max_mm": 0.1167883351445198,
+      "note": "Sampled surface deviation, not rigorous Hausdorff bound; source algebraic volume is a diagnostic because source intersects.",
+      "file": "O_REPAIRED_voxel0p3_WIDTH150_MM.stl",
+      "sha256": "99110ede38b12f1fd8132743fe78ab648da7fdd45046912487991b45d7d5666d"
+    },
+    {
+      "voxel_mm": 0.2,
+      "triangles": 36000,
+      "volume_mm3": 86630.99032001373,
+      "source_algebraic_volume_mm3": 86659.59440338613,
+      "volume_change_percent": -0.033007405088059105,
+      "nonmanifold_edges": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "spans_mm": [
+        149.96266174316406,
+        103.16715621948242,
+        97.32221984863281
+      ],
+      "symmetric_sample_max_distance_mm": 0.16038867831230164,
+      "symmetric_sample_p95_distance_mm": 0.03900826349854469,
+      "symmetric_sample_p99_distance_mm": 0.054673437029123306,
+      "source_to_repair_max_mm": 0.16038867831230164,
+      "repair_to_source_max_mm": 0.10235641151666641,
+      "note": "Sampled surface deviation, not rigorous Hausdorff bound; source algebraic volume is a diagnostic because source intersects.",
+      "file": "O_REPAIRED_voxel0p2_WIDTH150_MM.stl",
+      "sha256": "15cbb4bb7a26b6c6f5769e5b999d6de085ecf507e29630125805c08ed7620484"
+    }
+  ]
+}

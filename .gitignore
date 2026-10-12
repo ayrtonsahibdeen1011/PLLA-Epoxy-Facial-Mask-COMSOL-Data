@@ -1,0 +1,12 @@
+*.mph
+*.mph.lock
+*.stl
+*.tiff
+*.tif
+*.zip
+UTS/
+05_TENSILE_RAW_RECORDINGS/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
