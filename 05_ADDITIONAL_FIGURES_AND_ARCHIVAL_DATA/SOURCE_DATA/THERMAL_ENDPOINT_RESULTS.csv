@@ -1,0 +1,5 @@
+﻿Case工况,FinalT_K末温,MaxDisplacement_mm最大位移,MaxVonMises_MPa最大等效应力,MaxElasticEnergy_MJm3最大弹性能密度,MaxVolStrain最大体积应变,MaxFirstPrincipal_MPa最大第一主应力,Evidence_来源状态
+PLLA,336.15,1.368497,197.15122,9.927457,0.034085023,130.615862,EXISTING original native saved case validated
+LowEpoxy,336.15,1.211413,87.261017,3.889646,0.030172568,57.811553,EXISTING original native saved case validated
+MidEpoxy,336.15,1.211413,130.891526,5.834469,0.030172568,86.71733,EXISTING original native saved case validated
+HighEpoxy,336.15,1.211413,174.522034,7.779291,0.030172568,115.623107,REDO E_ONLY_24H_SOLVED native

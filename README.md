@@ -2,7 +2,7 @@
 
 This repository contains exported numerical data, validation tables, publication figures, and data-to-figure Python scripts for the COMSOL component of the PLLA-epoxy facial-mask manuscript.
 
-DATA-ONLY RELEASE: Native COMSOL MPH files and geometry STL files are intentionally not included. They will be uploaded separately as Simulation Source Models so the numerical data repository stays lightweight and easy for collaborators to review.
+PUBLIC DATA-ONLY RELEASE: Native COMSOL MPH files and geometry STL files are intentionally not included. This repository is meant to expose the numerical results, validation, figures, and reproducible post-processing without publishing the large native model files. Model fingerprints are retained for provenance, and native models can be supplied privately if required for peer review or editorial verification.
 
 COMSOL version for the accepted native models: COMSOL Multiphysics 6.3.
 
@@ -76,8 +76,9 @@ These values were not calibrated from the archived UTS coupon tests and should n
 03_BACKUP_AND_INDEPENDENT - optional field views
 04_TABLES_AND_PROVENANCE/COMSOL_RAW_AND_VALIDATION - exported numerical values and QA
 04_TABLES_AND_PROVENANCE/MANUSCRIPT_READY_TABLES - consolidated author-facing tables
+05_ADDITIONAL_FIGURES_AND_ARCHIVAL_DATA - later ball/mask setup figures, impact overviews, and clearly marked review-only historical thermomechanical endpoint material
 06_REPRODUCIBLE_SOURCES - Python scripts for rebuilding exported-data figures and tables
-SOURCE_MODELS_LATER.md - scope of the later native-model upload
+NATIVE_MODELS_NOT_PUBLIC.md - native-model distribution policy and model-family list
 MANIFEST_SHA256.csv - integrity hashes
 
 ## Important interpretation limits
@@ -88,14 +89,14 @@ MANIFEST_SHA256.csv - integrity hashes
 - The historical contact model is a different scale/model family from the normalized reference/open-corner study.
 - The reference/open-corner calculations cannot isolate the effect of corner openings alone.
 - Cooling studies solve homogeneous solid conduction with prescribed external convection; they do not resolve airflow, skin contact, or human thermal comfort.
-- Older thesis thermomechanical histories with questionable heat capacity and starting-temperature behavior are not part of this accepted data release.
+- Older thesis thermomechanical histories with questionable heat capacity and starting-temperature behavior are not part of the accepted thermal conclusions. A small subset is retained only under `05_ADDITIONAL_FIGURES_AND_ARCHIVAL_DATA/THERMOMECHANICAL_REVIEW_ONLY` because it was shared as later archival visual material; its README and audit tables explicitly restrict interpretation.
 - Experimental UTS data are maintained separately and are not included here.
 
 ## Reproduction from exported data
 
 The Python scripts in 06_REPRODUCIBLE_SOURCES rebuild accepted graphs and tables using included CSV and JSON values. They do not recreate finite-element solutions.
 
-Native model reproduction requires the separate Simulation Source Models upload.
+Native finite-element reproduction requires the original COMSOL model files, which are intentionally not distributed through this public data repository.
 
 ## Status
 

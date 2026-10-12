@@ -1,0 +1,7 @@
+case,model_filename,sha256,status,limitations
+Historical contact - Center,Center_MESH3_SOLVED.mph,e6ed947d3061246815900db7d255b64414244b6674a5ad3858b773200c337aab,ACCEPTED,"Corrected stationary sphere-contact model; 1.5-4 mm subset used for accepted curves"
+Historical contact - Upper orbital,Orbital_MESH3_SOLVED.mph,64367f0ee1f6db51f733a3e9d5534e184fcb21cb5733d22594ed7477d250313a,ACCEPTED,"Corrected stationary sphere-contact model; 1.5-4 mm subset used for accepted curves"
+Archived thermo endpoint - Epoxy E2,T_EpoxyE2_2GPa_24h_original.mph,a0098605cd1db20a98712e0b512f68368b8c6fd0f92713ce6922ded06d567d9b,REVIEW_ONLY,"24 h prescribed-temperature endpoint only; questionable Cp and unreconciled saved initial temperature"
+Archived thermo endpoint - Epoxy E3,T_EpoxyE3_3GPa_24h_original.mph,72aac17ecf9fc01b5fabf56674178040651972a964b9079359f7cebbc0898836,REVIEW_ONLY,"24 h prescribed-temperature endpoint only; questionable Cp and unreconciled saved initial temperature"
+Archived thermo endpoint - Epoxy E4,T_EpoxyE4_4GPa_24h_REPAIRED_E.mph,f36a94dbae2a9a91a53f262e30593a3244ddb63781f2c34777f7f62bcb1b340d,REVIEW_ONLY,"E corrected to 4 GPa for endpoint solve; not a validated transient thermal model"
+Archived thermo endpoint - PLLA,T_PLLA_4GPa_24h_original.mph,cfd027837d7629c1347798abedc318db8cf01bcd9b70f7e179a7cc293d556577,REVIEW_ONLY,"24 h prescribed-temperature endpoint only; questionable Cp and unreconciled saved initial temperature"
